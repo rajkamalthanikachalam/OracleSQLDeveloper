@@ -13,10 +13,7 @@ public class DBConn {
         } catch (Exception e) {
             e.printStackTrace();
             conn = null;
-
         }
         return conn;
     }
-
-
 }
